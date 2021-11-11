@@ -52,7 +52,7 @@ body {
 /* Tablet and up */
 @media (min-width: 768px) {
   .stories {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 25px;
     max-width: calc(2 * 290px);
   }
@@ -61,7 +61,7 @@ body {
 /* Desktop and up */
 @media (min-width: 1440px) {
   .stories {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     max-width: calc(3 * 350px);
   }
 
